@@ -1,0 +1,6 @@
+utkonostests\pages\BasePage.class
+utkonostests\LoginTest.class
+utkonostests\pages\LoginPage.class
+utkonostests\testconfigs\BaseTest.class
+utkonostests\pages\HistoryOrdersPage.class
+utkonostests\pages\ProfilePage.class

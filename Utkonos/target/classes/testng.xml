@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite" group-by-instances="true" >
+    <test verbose="1"
+          name="C:/Users/Vyrvikhvist_Ia/IdeaProjects/Utkonos/src/main/java">
+        <classes>
+            <class name="utkonostests.tests.LoginTest">
+            </class>
+            <class name="utkonostests.tests.BasketTest">
+            </class>
+            <class name="utkonostests.tests.HistoryOrdersTest">
+            </class>
+            <class name="utkonostests.tests.OrderTest">
+            </class>
+            <class name="utkonostests.tests.ProfileTest">
+            </class>
+        </classes>
+    </test>
+</suite>
