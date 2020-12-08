@@ -59,12 +59,7 @@ public class ProfilePage {
 
     @Step("очистить поле 'Имя'")
     public void clearFieldName() {
-        //249 878
         fieldName.setValue(" ").pressEnter();
-        //Point point = fieldName.getLocation();
-        //int xcord = point.getX();
-        //int ycord = point.getY();
-        //System.out.println(xcord + " "+ ycord);
         Selenide.actions().moveToElement(fieldName, 1000, 1000);
         textFieldNameIsEmpty.shouldBe(visible);
     }
